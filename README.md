@@ -1,0 +1,1 @@
+## Basic-MySql-Assignments.
