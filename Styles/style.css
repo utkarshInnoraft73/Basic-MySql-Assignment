@@ -1,0 +1,42 @@
+form{
+    background-color: rgb(169, 228, 246) !important;
+    width: 600px;
+     margin:auto; 
+     padding: 40px;
+      border:2px solid gray;
+       border-radius: 5px;
+}
+
+.form-div{
+    position: relative !important;
+}
+.form-div.success input{
+    border: 2px solid #2ecc71;
+}
+.form-div.error input{
+    border: 2px solid #e74c3c;
+}
+.form-div i{
+    position: absolute !important;
+    top: 46%;
+    right: 16px;
+    visibility: hidden;
+}
+.form-div.success i.fa-check{
+    color: #2ecc71;
+    visibility: visible;
+}
+.form-div.error i.fa-circle-exclamation{
+    color: #e74c3c;
+    visibility: visible;
+}
+.form-div small{
+    color: #e74c3c;
+    visibility: hidden;
+}
+.form-div.error small{
+    visibility: visible;
+}
+tr{
+    border: 1px solid rgb(166, 166, 166) !important;
+}
